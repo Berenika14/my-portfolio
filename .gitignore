@@ -1,12 +1,13 @@
-node_modules
+node_modules/
+dist/
+build/
+.next/
+out/
+.vercel/
+.turbo/
+coverage/
 
-api
-.cache
+*.log
+.DS_Store
 .env
-.vercel
-.output
-
-/build/
-/public/build
-/api/index.js
-.history
+.env.*
